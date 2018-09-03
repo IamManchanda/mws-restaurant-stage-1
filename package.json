@@ -1,0 +1,15 @@
+{
+  "name": "mws-restaurant-stage-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:IamManchanda/mws-restaurant-stage-1.git",
+  "author": "Harry Manchanda <harmanmanchanda182@gmail.com>",
+  "scripts": {
+    "watch": "npx sass scss/styles.scss css/styles.css --watch",
+    "start": "python3 -m http.server 8000"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.13.1"
+  }
+}
