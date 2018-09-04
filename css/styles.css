@@ -84,7 +84,10 @@ th {
   text-align: left;
 }
 
-body, td, th, p {
+body,
+td,
+th,
+p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12pt;
   color: #333333;
@@ -97,7 +100,8 @@ body {
   position: relative;
 }
 
-ul, li {
+ul,
+li {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10pt;
   color: #333333;
@@ -107,22 +111,36 @@ a {
   color: #ffa500;
   text-decoration: none;
 }
-
 a:hover, a:focus {
   color: #3397db;
   text-decoration: none;
 }
-
 a img {
   border: none 0px #fefefe;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0 0 20px;
 }
 
-article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -148,11 +166,9 @@ nav {
   background-color: #252831;
   text-align: center;
 }
-
 nav h1 {
   margin: auto;
 }
-
 nav h1 a {
   color: #fefefe;
   font-size: 14pt;
@@ -169,27 +185,19 @@ nav h1 a {
   margin: 0;
   width: calc(50% - 80px);
 }
-
-/* Display list items side by side */
 #breadcrumb li {
   display: inline;
 }
-
-/* Add a slash symbol (/) before/behind each list item */
 #breadcrumb li + li:before {
   padding: 8px;
   color: #0a0a0a;
   content: "/ ";
 }
-
-/* Add a color to all links inside the list */
 #breadcrumb li a {
   color: #3397db;
   text-decoration: none;
 }
-
-/* Add a color on mouse-over */
-#breadcrumb li a:hover {
+#breadcrumb li a:hover, #breadcrumb li a:focus {
   color: #0275d8;
   text-decoration: underline;
 }
@@ -206,7 +214,6 @@ nav h1 a {
   background-color: #3397db;
   align-items: center;
 }
-
 .filter-options h2 {
   color: #fefefe;
   font-size: 1rem;
@@ -214,7 +221,6 @@ nav h1 a {
   line-height: 1;
   margin: 0 20px;
 }
-
 .filter-options select {
   background-color: #fefefe;
   border: 1px solid #fefefe;
@@ -234,7 +240,6 @@ nav h1 a {
   padding: 30px 15px 60px;
   text-align: center;
 }
-
 #restaurants-list li {
   background-color: #fefefe;
   border: 2px solid #cccccc;
@@ -245,7 +250,6 @@ nav h1 a {
   text-align: left;
   width: 270px;
 }
-
 #restaurants-list .restaurant-img {
   background-color: #cccccc;
   display: block;
@@ -254,7 +258,6 @@ nav h1 a {
   min-height: 248px;
   min-width: 100%;
 }
-
 #restaurants-list li h1 {
   color: #f18200;
   font-family: Arial, sans-serif;
@@ -265,12 +268,6 @@ nav h1 a {
   margin: 20px 0 10px;
   text-transform: uppercase;
 }
-
-#restaurants-list p {
-  margin: 0;
-  font-size: 11pt;
-}
-
 #restaurants-list li a {
   background-color: #ffa500;
   border-bottom: 3px solid #eeeeee;
@@ -283,6 +280,10 @@ nav h1 a {
   text-decoration: none;
   text-transform: uppercase;
 }
+#restaurants-list p {
+  margin: 0;
+  font-size: 11pt;
+}
 
 .inside header {
   position: fixed;
@@ -290,7 +291,6 @@ nav h1 a {
   width: 100%;
   z-index: 1000;
 }
-
 .inside #map-container {
   background: #0275d8 none repeat scroll 0 0;
   height: 87%;
@@ -299,13 +299,11 @@ nav h1 a {
   top: 80px;
   width: 50%;
 }
-
 .inside #map {
   background-color: #cccccc;
   height: 100%;
   width: 100%;
 }
-
 .inside #footer {
   bottom: 0;
   position: absolute;
@@ -345,9 +343,10 @@ nav h1 a {
   width: 90%;
 }
 
-#restaurant-container, #reviews-container {
-  border-bottom: 1px solid #ddd;
-  border-top: 1px solid #fff;
+#restaurant-container,
+#reviews-container {
+  border-bottom: 1px solid #dddddd;
+  border-top: 1px solid #fefefe;
   padding: 140px 40px 30px;
   width: 50%;
 }
@@ -355,9 +354,8 @@ nav h1 a {
 #reviews-container {
   padding: 30px 40px 80px;
 }
-
 #reviews-container h2 {
-  color: #f58500;
+  color: #f18200;
   font-size: 24pt;
   font-weight: 300;
   letter-spacing: -1px;
@@ -368,9 +366,8 @@ nav h1 a {
   margin: 0;
   padding: 0;
 }
-
 #reviews-list li {
-  background-color: #fff;
+  background-color: #fefefe;
   border: 2px solid #f3f3f3;
   display: block;
   list-style-type: none;
@@ -380,13 +377,12 @@ nav h1 a {
   position: relative;
   width: 85%;
 }
-
 #reviews-list li p {
   margin: 0 0 10px;
 }
 
 #restaurant-hours td {
-  color: #666;
+  color: #666666;
 }
 
 /*# sourceMappingURL=styles.css.map */

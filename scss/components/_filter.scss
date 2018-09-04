@@ -3,24 +3,24 @@
   height: 50px;
   background-color: $primary-color;
   align-items: center;
-}
 
-.filter-options h2 {
-  color: $white-color;
-  font-size: 1rem;
-  font-weight: normal;
-  line-height: 1;
-  margin: 0 20px;
-}
+  h2 {
+    color: $white-color;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0 20px;
+  }
 
-.filter-options select {
-  background-color: $white-color;
-  border: 1px solid $white-color;
-  font-family: Arial, sans-serif;
-  font-size: 11pt;
-  height: 35px;
-  letter-spacing: 0;
-  margin: 10px;
-  padding: 0 10px;
-  width: 200px;
+  select {
+    background-color: $white-color;
+    border: 1px solid $white-color;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+    height: 35px;
+    letter-spacing: 0;
+    margin: 10px;
+    padding: 0 10px;
+    width: 200px;
+  }
 }
