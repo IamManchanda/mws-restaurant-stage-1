@@ -5,11 +5,12 @@
   "repository": "git@github.com:IamManchanda/mws-restaurant-stage-1.git",
   "author": "Harry Manchanda <harmanmanchanda182@gmail.com>",
   "scripts": {
-    "watch": "npx sass scss/styles.scss css/styles.css --watch",
-    "start": "python3 -m http.server 8000"
+    "styles": "npx sass scss/styles.scss css/styles.css --watch",
+    "start": "npx live-server --port=8000 --host=localhost"
   },
   "license": "MIT",
   "devDependencies": {
+    "live-server": "^1.2.0",
     "sass": "^1.13.1"
   }
 }
