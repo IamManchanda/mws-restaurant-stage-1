@@ -16,6 +16,8 @@
 
 Screenshots are available [here](./screenshots) which consists of five screens - Mobile, Tablet, Small Desktop, Medium Desktop and Large Desktop.
 
+Video Screenshot is [here](https://drive.google.com/file/d/1N3OVcf6RgXJ9wEnftVQisd0AWoA06sw-/view).
+
 ## Accesibility
 
 Things look Good. Cheers!
