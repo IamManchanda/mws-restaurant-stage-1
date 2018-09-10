@@ -1,8 +1,17 @@
 .filter-options {
   width: 100%;
-  height: 50px;
+  height: 10rem;
+  padding: 0.5rem;
   background-color: $primary-color;
   align-items: center;
+
+  @media screen and (min-width: 320px) {
+    padding: 1rem;
+  }
+
+  @media screen and (min-width: 480px) {
+    height: 6rem;
+  }
 
   h2 {
     color: $white-color;
