@@ -30,12 +30,13 @@ nav {
   padding: 10px 40px 16px;
   list-style: none;
   background-color: $gray-color-2;
-  font-size: 17px;
+  font-size: 1rem;
   margin: 0;
   width: calc(50% - 80px);
 
   li {
     display: inline;
+    font-size: 1rem;
 
     &+li:before {
       padding: 8px;
@@ -44,7 +45,7 @@ nav {
     }
 
     a {
-      color: $primary-color;
+      color: darken($primary-color, 5%);
       text-decoration: none;
 
       &:hover,
