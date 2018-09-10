@@ -6,4 +6,10 @@
   .leaflet-container a {
     color: #0F4880;
   }
+
+  @media screen and (max-width: 639px) {
+    .leaflet-top {
+      top: 12vh;
+    }
+  }
 }
