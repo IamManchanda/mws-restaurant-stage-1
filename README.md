@@ -5,6 +5,7 @@
 - Install [Node](https://nodejs.org/)
 - Fork and clone this repo
 - `cd` into this repo
+- `npm install` to install all the dependencies
 
 ## Usage 
 
