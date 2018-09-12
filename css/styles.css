@@ -172,22 +172,22 @@ section {
 }
 
 /* Components */
-nav {
+nav.main-nav {
   width: 100%;
   height: 6rem;
   background-color: #252831;
   text-align: center;
 }
 @media screen and (min-width: 320px) {
-  nav {
+  nav.main-nav {
     height: 4rem;
   }
 }
-nav h1 {
+nav.main-nav h1 {
   margin: auto;
   padding-top: 1.25rem;
 }
-nav h1 a {
+nav.main-nav h1 a {
   color: #fefefe;
   font-size: 1rem;
   font-weight: 200;
@@ -195,7 +195,7 @@ nav h1 a {
   text-transform: uppercase;
 }
 @media screen and (min-width: 480px) {
-  nav h1 a {
+  nav.main-nav h1 a {
     letter-spacing: 0.5rem;
   }
 }
