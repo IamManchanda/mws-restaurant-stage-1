@@ -27,14 +27,14 @@
         <h2>Filter Results</h2>
         <div class="filter-options-item">
           <div class="neighborhoods-select-container">
-            <label for="neighborhoods-select">Neighborhoods:</label>
-            <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+            <label for="neighborhoods-select" id="neighborhoods-select-label">Neighborhoods:</label>
+            <select id="neighborhoods-select" aria-labelledby="neighborhoods-select-label" name="neighborhoods" onchange="updateRestaurants()">
               <option value="all">All Neighborhoods</option>
             </select>
           </div>
           <div class="cuisines-select-container">
-            <label for="cuisines-select">Cuisines:</label>
-            <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+            <label for="cuisines-select" id="cuisines-select-label">Cuisines:</label>
+            <select id="cuisines-select" name="cuisines" aria-labelledby="cuisines-select-label" onchange="updateRestaurants()">
               <option value="all">All Cuisines</option>
             </select>
           </div>
